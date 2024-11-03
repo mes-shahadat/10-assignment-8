@@ -1,0 +1,684 @@
+[
+    {
+        "product_id": 1001,
+        "product_title": "UltraHD 4K Smart TV",
+        "product_image": "https://i.ibb.co.com/XXXzXnY/Ultra-HD-4-K-Smart-TV-min.jpg",
+        "category": "Electronics",
+        "price": 799,
+        "description": "A 55-inch UltraHD 4K smart TV with crystal-clear display.",
+        "specification": [
+            "55-inch display",
+            "4K Ultra HD",
+            "Smart TV functionality",
+            "3 HDMI ports",
+            "1-year warranty"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "TechVision"
+    },
+    {
+        "product_id": 1002,
+        "product_title": "Stainless Steel Blender",
+        "product_image": "https://i.ibb.co.com/M9x4DxF/Stainless-Steel-Blender-min.jpg",
+        "category": "Home Appliances",
+        "price": 120,
+        "description": "A powerful blender with multiple speed settings and durable stainless steel blades.",
+        "specification": [
+            "1000W motor",
+            "Stainless steel blades",
+            "3-speed settings",
+            "2-liter jar capacity"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "HomeEase"
+    },
+    {
+        "product_id": 1003,
+        "product_title": "Wireless Noise-Cancelling Headphones",
+        "product_image": "https://i.ibb.co.com/GMYmkZt/Wireless-Noise-Cancelling-Headphones-min.jpg",
+        "category": "Audio",
+        "price": 199,
+        "description": "Comfortable wireless headphones with active noise-cancelling technology.",
+        "specification": [
+            "Bluetooth connectivity",
+            "Active noise cancelling",
+            "20 hours battery life",
+            "Foldable design"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "SoundWave"
+    },
+    {
+        "product_id": 1004,
+        "product_title": "Espresso Coffee Maker",
+        "product_image": "https://i.ibb.co.com/PG5yZjL/Espresso-Coffee-Maker-min.jpg",
+        "category": "Kitchen Appliances",
+        "price": 299,
+        "description": "An espresso coffee maker with a high-pressure pump and easy-to-clean design.",
+        "specification": [
+            "15-bar pressure",
+            "1.5L water tank",
+            "Removable drip tray",
+            "Built-in steam wand"
+        ],
+        "availability": false,
+        "rating": 4.4,
+        "brand": "BrewMaster"
+    },
+    {
+        "product_id": 1005,
+        "product_title": "Ergonomic Office Chair",
+        "product_image": "https://i.ibb.co.com/R4K56Y9/Ergonomic-Office-Chair-min.jpg",
+        "category": "Furniture",
+        "price": 175,
+        "description": "An ergonomic office chair with adjustable lumbar support and breathable mesh.",
+        "specification": [
+            "Adjustable height",
+            "Lumbar support",
+            "Breathable mesh back",
+            "Swivel base"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "ComfySeat"
+    },
+    {
+        "product_id": 1006,
+        "product_title": "Smart Fitness Watch",
+        "product_image": "https://i.ibb.co.com/wNGMJTy/Smart-Fitness-Watch-min.jpg",
+        "category": "Wearable Technology",
+        "price": 130,
+        "description": "A smartwatch with fitness tracking, heart rate monitoring, and GPS.",
+        "specification": [
+            "Heart rate monitor",
+            "GPS tracking",
+            "7-day battery life",
+            "Water-resistant"
+        ],
+        "availability": true,
+        "rating": 4.2,
+        "brand": "ActiveLife"
+    },
+    {
+        "product_id": 1007,
+        "product_title": "Cordless Drill Kit",
+        "product_image": "https://i.ibb.co.com/KDqpWZt/Cordless-Drill-Kit-min.jpg",
+        "category": "Tools",
+        "price": 89,
+        "description": "A versatile cordless drill kit with a long-lasting battery and multiple drill bits.",
+        "specification": [
+            "20V battery",
+            "Includes drill bits",
+            "Lightweight design",
+            "Rechargeable"
+        ],
+        "availability": false,
+        "rating": 4.3,
+        "brand": "PowerToolPro"
+    },
+    {
+        "product_id": 1008,
+        "product_title": "Eco-Friendly Yoga Mat",
+        "product_image": "https://i.ibb.co.com/Dg8KYQR/Eco-Friendly-Yoga-Mat-min.jpg",
+        "category": "Sports",
+        "price": 35,
+        "description": "An eco-friendly yoga mat with a non-slip surface and extra cushioning.",
+        "specification": [
+            "Non-slip surface",
+            "Eco-friendly material",
+            "6mm thickness",
+            "Lightweight"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "EcoFit"
+    },
+    {
+        "product_id": 1009,
+        "product_title": "Gaming Mouse with RGB Lighting",
+        "product_image": "https://i.ibb.co.com/B3BJBz7/Gaming-Mouse-with-RGB-Lighting-min.jpg",
+        "category": "Computers",
+        "price": 49,
+        "description": "A precision gaming mouse with customizable RGB lighting and programmable buttons.",
+        "specification": [
+            "DPI adjustable",
+            "RGB lighting",
+            "6 programmable buttons",
+            "Ergonomic design"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "GameTech"
+    },
+    {
+        "product_id": 1010,
+        "product_title": "Luxury Bath Towel Set",
+        "product_image": "https://i.ibb.co.com/fDhxgc3/Luxury-Bath-Towel-Set-min.jpg",
+        "category": "Home Essentials",
+        "price": 60,
+        "description": "A set of luxury bath towels made from 100% organic cotton.",
+        "specification": [
+            "100% organic cotton",
+            "Ultra-soft",
+            "Machine washable",
+            "Quick-dry fabric"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "PureHome"
+    },
+    {
+        "product_id": 1011,
+        "product_title": "Instant Pot Pressure Cooker",
+        "product_image": "https://i.ibb.co.com/bKbL64G/Instant-Pot-Pressure-Cooker-min.jpg",
+        "category": "Kitchen Appliances",
+        "price": 99,
+        "description": "A multifunctional pressure cooker with multiple cooking modes and timer.",
+        "specification": [
+            "7-in-1 functions",
+            "6-quart capacity",
+            "Stainless steel",
+            "Easy-clean lid"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "CookEase"
+    },
+    {
+        "product_id": 1012,
+        "product_title": "Pet Hair Vacuum Cleaner",
+        "product_image": "https://i.ibb.co.com/Mf5NQ8C/Pet-Hair-Vacuum-Cleaner-min.jpg",
+        "category": "Home Appliances",
+        "price": 210,
+        "description": "A high-suction vacuum cleaner designed to pick up pet hair and allergens.",
+        "specification": [
+            "High suction power",
+            "HEPA filter",
+            "Cordless",
+            "Bagless design"
+        ],
+        "availability": false,
+        "rating": 4.4,
+        "brand": "CleanPro"
+    },
+    {
+        "product_id": 1013,
+        "product_title": "Bluetooth Speaker",
+        "product_image": "https://i.ibb.co.com/gg9Rsvw/Bluetooth-Speaker-min.jpg",
+        "category": "Audio",
+        "price": 40,
+        "description": "A compact Bluetooth speaker with crystal-clear sound and bass boost.",
+        "specification": [
+            "Bluetooth 5.0",
+            "10-hour battery",
+            "Water-resistant",
+            "Portable design"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "BeatBox"
+    },
+    {
+        "product_id": 1014,
+        "product_title": "Adjustable Dumbbell Set",
+        "product_image": "https://i.ibb.co.com/s5s4YCm/Adjustable-Dumbbell-Set-min.jpg",
+        "category": "Fitness",
+        "price": 250,
+        "description": "An adjustable dumbbell set for a versatile home workout.",
+        "specification": [
+            "Weight range: 5-50 lbs",
+            "Non-slip grip",
+            "Space-saving design",
+            "Durable construction"
+        ],
+        "availability": false,
+        "rating": 4.8,
+        "brand": "FlexFit"
+    },
+    {
+        "product_id": 1015,
+        "product_title": "Ceramic Dinnerware Set",
+        "product_image": "https://i.ibb.co.com/JRrKyFy/Ceramic-Dinnerware-Set-min.jpg",
+        "category": "Kitchen",
+        "price": 70,
+        "description": "A 16-piece ceramic dinnerware set, perfect for family gatherings.",
+        "specification": [
+            "Includes 4 plates, bowls, mugs",
+            "Microwave safe",
+            "Dishwasher safe",
+            "Chip-resistant"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "HomeEssentials"
+    },
+    {
+        "product_id": 1016,
+        "product_title": "Camping Tent for 4",
+        "product_image": "https://i.ibb.co.com/2kypnpp/Camping-Tent-for-4-min.jpg",
+        "category": "Outdoor",
+        "price": 120,
+        "description": "A weather-resistant camping tent suitable for up to 4 people.",
+        "specification": [
+            "Water-resistant material",
+            "4-person capacity",
+            "Easy setup",
+            "UV protection"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "CampMaster"
+    },
+    {
+        "product_id": 1017,
+        "product_title": "Mini Projector",
+        "product_image": "https://i.ibb.co.com/cJGQfMC/Mini-Projector-min.jpg",
+        "category": "Electronics",
+        "price": 150,
+        "description": "A portable mini projector for indoor and outdoor movie nights.",
+        "specification": [
+            "1080p resolution",
+            "Wi-Fi compatible",
+            "Up to 150-inch screen",
+            "Built-in speakers"
+        ],
+        "availability": false,
+        "rating": 4.3,
+        "brand": "ScreenVision"
+    },
+    {
+        "product_id": 1018,
+        "product_title": "Smart Air Purifier",
+        "product_image": "https://i.ibb.co.com/B2nRLJM/Smart-Air-Purifier-min.jpg",
+        "category": "Home Appliances",
+        "price": 199,
+        "description": "Air purifier with smart sensors and HEPA filtration to improve indoor air quality.",
+        "specification": [
+            "HEPA filter",
+            "Covers up to 500 sq ft",
+            "Smart app control",
+            "Silent mode"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "AirCare"
+    },
+    {
+        "product_id": 1019,
+        "product_title": "Electric Kettle",
+        "product_image": "https://i.ibb.co.com/vLkWpg2/Electric-Kettle-min.jpg",
+        "category": "Kitchen Appliances",
+        "price": 45,
+        "description": "Fast-boiling electric kettle with auto shut-off and stainless steel body.",
+        "specification": [
+            "1500W power",
+            "1.7L capacity",
+            "Auto shut-off",
+            "Boil-dry protection"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "BrewMate"
+    },
+    {
+        "product_id": 1020,
+        "product_title": "LED Desk Lamp",
+        "product_image": "https://i.ibb.co.com/tQ9z0DD/LED-Desk-Lamp-min.jpg",
+        "category": "Lighting",
+        "price": 35,
+        "description": "An energy-efficient LED desk lamp with adjustable brightness settings.",
+        "specification": [
+            "Adjustable brightness",
+            "USB charging port",
+            "Energy efficient",
+            "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "brand": "BrightWorks"
+    },
+    {
+        "product_id": 1021,
+        "product_title": "Weighted Blanket",
+        "product_image": "https://i.ibb.co.com/G04HG7V/Weighted-Blanket-min.jpg",
+        "category": "Bedding",
+        "price": 80,
+        "description": "A soft weighted blanket to reduce stress and improve sleep quality.",
+        "specification": [
+            "15 lbs weight",
+            "Breathable cotton",
+            "Machine washable",
+            "Even weight distribution"
+        ],
+        "availability": false,
+        "rating": 4.7,
+        "brand": "CalmSleep"
+    },
+    {
+        "product_id": 1022,
+        "product_title": "Portable Bluetooth Speaker",
+        "product_image": "https://i.ibb.co.com/ncrgGf9/Portable-Bluetooth-Speaker-min.jpg",
+        "category": "Audio",
+        "price": 55,
+        "description": "Compact Bluetooth speaker with enhanced bass and long battery life.",
+        "specification": [
+            "10 hours battery life",
+            "Enhanced bass",
+            "Water-resistant",
+            "Portable design"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "SoundBlast"
+    },
+    {
+        "product_id": 1023,
+        "product_title": "Electric Toothbrush",
+        "product_image": "https://i.ibb.co.com/KW6CR7w/Electric-Toothbrush-min.jpg",
+        "category": "Personal Care",
+        "price": 75,
+        "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+        "specification": [
+            "5 cleaning modes",
+            "Rechargeable battery",
+            "2-minute timer",
+            "Water-resistant"
+        ],
+        "availability": true,
+        "rating": 4.4,
+        "brand": "CleanSmile"
+    },
+    {
+        "product_id": 1024,
+        "product_title": "Ceramic Plant Pots Set",
+        "product_image": "https://i.ibb.co.com/3RD9tZv/Ceramic-Plant-Pots-Set-min.jpg",
+        "category": "Home Decor",
+        "price": 30,
+        "description": "A set of ceramic plant pots perfect for indoor plants.",
+        "specification": [
+            "3-piece set",
+            "Ceramic material",
+            "Drainage holes",
+            "Stylish design"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "EcoHome"
+    },
+    {
+        "product_id": 1025,
+        "product_title": "Magnetic Phone Holder",
+        "product_image": "https://i.ibb.co.com/L0jdyrm/Magnetic-Phone-Holder-min.jpg",
+        "category": "Automotive Accessories",
+        "price": 20,
+        "description": "A convenient magnetic phone holder for secure mounting in cars.",
+        "specification": [
+            "Strong magnet",
+            "360-degree rotation",
+            "Universal compatibility",
+            "Easy installation"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "AutoGrip"
+    },
+    {
+        "product_id": 1026,
+        "product_title": "Digital Alarm Clock",
+        "product_image": "https://i.ibb.co.com/dr3hGY9/Digital-Alarm-Clock-min.jpg",
+        "category": "Electronics",
+        "price": 25,
+        "description": "A compact digital alarm clock with LED display and snooze function.",
+        "specification": [
+            "LED display",
+            "Snooze function",
+            "Battery backup",
+            "Compact design"
+        ],
+        "availability": false,
+        "rating": 4.2,
+        "brand": "TimeMax"
+    },
+    {
+        "product_id": 1027,
+        "product_title": "Stainless Steel Water Bottle",
+        "product_image": "https://i.ibb.co.com/LzfdKhw/Stainless-Steel-Water-Bottle-min.jpg",
+        "category": "Outdoor",
+        "price": 25,
+        "description": "An insulated stainless steel water bottle that keeps drinks hot or cold.",
+        "specification": [
+            "Double-wall insulation",
+            "BPA-free",
+            "Leak-proof",
+            "Eco-friendly"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "HydroMaster"
+    },
+    {
+        "product_id": 1028,
+        "product_title": "Wireless Charging Pad",
+        "product_image": "hhttps://i.ibb.co.com/v3vyHxP/Wireless-Charging-Pad-min.jpg",
+        "category": "Electronics",
+        "price": 30,
+        "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+        "specification": [
+            "Fast charging",
+            "Slim design",
+            "LED indicator",
+            "Non-slip surface"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "PowerPad"
+    },
+    {
+        "product_id": 1029,
+        "product_title": "Electric Grill",
+        "product_image": "https://i.ibb.co.com/D42FJNR/Electric-Grill-min.jpg",
+        "category": "Kitchen Appliances",
+        "price": 90,
+        "description": "Indoor electric grill with adjustable temperature settings and non-stick surface.",
+        "specification": [
+            "Non-stick surface",
+            "Adjustable temperature",
+            "Compact size",
+            "Easy to clean"
+        ],
+        "availability": false,
+        "rating": 4.3,
+        "brand": "GrillPro"
+    },
+    {
+        "product_id": 1030,
+        "product_title": "Foam Roller",
+        "product_image": "https://i.ibb.co.com/YTTy8Wy/Foam-Roller-min.jpg",
+        "category": "Fitness",
+        "price": 25,
+        "description": "High-density foam roller for muscle recovery and deep tissue massage.",
+        "specification": [
+            "High-density foam",
+            "Lightweight",
+            "12 inches long",
+            "Durable material"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "FlexFit"
+    },
+    {
+        "product_id": 1031,
+        "product_title": "Cordless Handheld Vacuum",
+        "product_image": "https://i.ibb.co.com/mzrDrsJ/Cordless-Handheld-Vacuum-min.jpg",
+        "category": "Home Appliances",
+        "price": 75,
+        "description": "Compact and powerful cordless vacuum for quick clean-ups.",
+        "specification": [
+            "Cordless",
+            "High suction power",
+            "Easy to empty",
+            "Lightweight"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "CleanUp"
+    },
+    {
+        "product_id": 1032,
+        "product_title": "UV Sanitizer Box",
+        "product_image": "https://i.ibb.co.com/mFzWX8g/UV-Sanitizer-Box-min.jpg",
+        "category": "Health",
+        "price": 65,
+        "description": "A UV sanitizer box to disinfect your personal items effectively.",
+        "specification": [
+            "Kills 99.9% of germs",
+            "Compact design",
+            "Auto shut-off",
+            "USB powered"
+        ],
+        "availability": true,
+        "rating": 4.4,
+        "brand": "SafeGuard"
+    },
+    {
+        "product_id": 1033,
+        "product_title": "Portable Air Compressor",
+        "product_image": "https://i.ibb.co.com/yhyqhDB/Portable-Air-Compressor-min.jpg",
+        "category": "Automotive",
+        "price": 50,
+        "description": "Compact and portable air compressor for inflating tires and sports equipment.",
+        "specification": [
+            "12V power",
+            "LED display",
+            "Compact design",
+            "Easy storage"
+        ],
+        "availability": false,
+        "rating": 4.5,
+        "brand": "AutoAssist"
+    },
+    {
+        "product_id": 1034,
+        "product_title": "Stand Mixer",
+        "product_image": "https://i.ibb.co.com/gJqjMRR/Stand-Mixer-min.jpg",
+        "category": "Kitchen Appliances",
+        "price": 300,
+        "description": "A powerful stand mixer with multiple attachments for baking and cooking.",
+        "specification": [
+            "600W motor",
+            "5-quart bowl",
+            "3 attachments included",
+            "Stainless steel bowl"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "BakeMate"
+    },
+    {
+        "product_id": 1035,
+        "product_title": "Wireless Earbuds",
+        "product_image": "https://i.ibb.co.com/9Yz6J26/Wireless-Earbuds-min.jpg",
+        "category": "Audio",
+        "price": 75,
+        "description": "True wireless earbuds with touch controls and noise isolation.",
+        "specification": [
+            "Touch controls",
+            "Noise isolation",
+            "Bluetooth 5.0",
+            "20-hour battery life"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "SoundZone"
+    },
+    {
+        "product_id": 1036,
+        "product_title": "Yoga Mat with Alignment Lines",
+        "product_image": "https://i.ibb.co.com/vqmmvWj/Yoga-Mat-with-Alignment-Lines-min.jpg",
+        "category": "Fitness",
+        "price": 40,
+        "description": "Non-slip yoga mat with alignment lines for precise positioning.",
+        "specification": [
+            "Alignment lines",
+            "Non-slip",
+            "Eco-friendly material",
+            "5mm thickness"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "AlignFit"
+    },
+    {
+        "product_id": 1037,
+        "product_title": "Electric Milk Frother",
+        "product_image": "https://i.ibb.co.com/SwxKgPZ/Electric-Milk-Frother-min.jpg",
+        "category": "Kitchen Appliances",
+        "price": 30,
+        "description": "Electric milk frother for creamy lattes and cappuccinos.",
+        "specification": [
+            "Froths hot and cold milk",
+            "Stainless steel",
+            "Easy to clean",
+            "Compact design"
+        ],
+        "availability": false,
+        "rating": 4.3,
+        "brand": "FoamMaster"
+    },
+    {
+        "product_id": 1038,
+        "product_title": "Essential Oil Diffuser",
+        "product_image": "https://i.ibb.co.com/GMcbFsP/Essential-Oil-Diffuser-min.jpg",
+        "category": "Home Essentials",
+        "price": 35,
+        "description": "A calming essential oil diffuser with LED mood lighting.",
+        "specification": [
+            "300ml capacity",
+            "LED lights",
+            "Auto shut-off",
+            "Quiet operation"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "AromaEase"
+    },
+    {
+        "product_id": 1039,
+        "product_title": "Cordless Stick Vacuum",
+        "product_image": "https://i.ibb.co.com/M66BrJN/Cordless-Stick-Vacuum-min.jpg",
+        "category": "Home Appliances",
+        "price": 220,
+        "description": "A lightweight cordless stick vacuum with powerful suction and easy maneuverability.",
+        "specification": [
+            "Powerful suction",
+            "Lightweight",
+            "Cordless design",
+            "Detachable battery"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "CleanSweep"
+    },
+    {
+        "product_id": 1040,
+        "product_title": "Adjustable Weight Bench",
+        "product_image": "https://i.ibb.co.com/QcMf74V/Adjustable-Weight-Bench-min.jpg",
+        "category": "Fitness",
+        "price": 140,
+        "description": "Adjustable weight bench for a versatile workout experience at home.",
+        "specification": [
+            "Adjustable positions",
+            "Sturdy frame",
+            "Comfortable padding",
+            "Foldable design"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "FlexBench"
+    }
+]
+
