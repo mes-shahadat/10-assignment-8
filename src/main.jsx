@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import './index.css'
 import App from './App';
+import Banner from './components/Banner';
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
     element: <App/>,
     errorElement: <h1>404 error</h1>,
     children: [
+      {
+        path: "/",
+        element: <Banner/>,
+      },
       {
         path: "/product-details/:id",
         element: <h1>product details page</h1>,

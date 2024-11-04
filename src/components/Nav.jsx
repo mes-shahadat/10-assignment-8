@@ -46,10 +46,10 @@ function Nav() {
 
     return (
         <>
-            <header className={`w-11/12 mx-auto ${pathname === '/' ? "border-t border-l border-r" : " "} p-1 rounded-t-2xl my-2`}>
+            <header className={`w-11/12 mx-auto ${pathname === '/' ? "border-t border-l border-r" : " "} px-2 pt-2 rounded-t-3xl mt-2`}>
 
-                <nav className={`flex max-sm:flex-col items-center sm:justify-around ${pathname === '/' ? "bg-[#943fdd] text-white" : " "} py-5 px-2 rounded-t-xl`}>
-                    <Link to='/' className="text-lg font-extrabold ">Gadget Heaven</Link>
+                <nav className={`flex max-sm:flex-col items-center sm:justify-around ${pathname === '/' ? "bg-[#943fdd] text-white" : " "} py-5 px-2 rounded-t-2xl`}>
+                    <Link to='/' className="text-xl font-extrabold max-sm:pb-4">Gadget Heaven</Link>
 
                     <div className="flex gap-2 sm:gap-5">
                         <NavLink to='/' className='max-sm:hidden'>Home</NavLink>
@@ -63,7 +63,7 @@ function Nav() {
                             </div>
 
                             {
-                                shown === "links" && <ul className="absolute w-max right-0 bg-white text-black p-4 mt-2 rounded-xl space-y-2 border">
+                                shown === "links" && <ul className="absolute z-10 w-max right-0 bg-white text-black p-4 mt-2 rounded-xl space-y-2 border">
                                     <li><NavLink to="/technical-support">Technical Support</NavLink></li>
                                     <li><NavLink to="/about-us">About us</NavLink></li>
                                     <li><NavLink to="/contact-us">Contact us</NavLink></li>
@@ -83,7 +83,7 @@ function Nav() {
                             </div>
 
                             {
-                                shown === "cart" && <div className="w-max bg-white absolute right-0 top-10 p-3 rounded-xl space-y-3 border">
+                                shown === "cart" && <div className="w-max bg-white absolute right-0 top-10 z-10 p-3 rounded-xl space-y-3 border">
                                     <p className="text-black text-xl font-bold">111 Items in Cart</p>
                                     <hr />
                                     <p className="font-semibold text-[#9140df]">Subtotal: $99.99</p>
@@ -102,7 +102,7 @@ function Nav() {
                             </div>
 
                             {
-                                shown === 'wishlist' && <div className="w-max bg-white absolute right-0 top-10 p-3 rounded-xl space-y-3 border">
+                                shown === 'wishlist' && <div className="w-max bg-white absolute right-0 top-10 z-10 p-3 rounded-xl space-y-3 border">
                                     <p className="text-black text-xl font-bold">111 Items in Wishlist</p>
                                     <hr />
                                     <p className="font-semibold text-[#9140df]">Subtotal: $99.99</p>
