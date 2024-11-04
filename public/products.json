@@ -124,7 +124,7 @@
         "product_title": "Eco-Friendly Yoga Mat",
         "product_image": "https://i.ibb.co.com/Dg8KYQR/Eco-Friendly-Yoga-Mat-min.jpg",
         "category": "Fitness",
-        "price": 35,
+        "price": 55,
         "description": "An eco-friendly yoga mat with a non-slip surface and extra cushioning.",
         "specification": [
             "Non-slip surface",
@@ -141,7 +141,7 @@
         "product_title": "Gaming Mouse with RGB Lighting",
         "product_image": "https://i.ibb.co.com/B3BJBz7/Gaming-Mouse-with-RGB-Lighting-min.jpg",
         "category": "Electronics",
-        "price": 49,
+        "price": 59,
         "description": "A precision gaming mouse with customizable RGB lighting and programmable buttons.",
         "specification": [
             "DPI adjustable",
@@ -209,7 +209,7 @@
         "product_title": "Bluetooth Speaker",
         "product_image": "https://i.ibb.co.com/gg9Rsvw/Bluetooth-Speaker-min.jpg",
         "category": "Audio",
-        "price": 40,
+        "price": 50,
         "description": "A compact Bluetooth speaker with crystal-clear sound and bass boost.",
         "specification": [
             "Bluetooth 5.0",
@@ -311,7 +311,7 @@
         "product_title": "Electric Kettle",
         "product_image": "https://i.ibb.co.com/vLkWpg2/Electric-Kettle-min.jpg",
         "category": "Kitchen Appliances",
-        "price": 45,
+        "price": 55,
         "description": "Fast-boiling electric kettle with auto shut-off and stainless steel body.",
         "specification": [
             "1500W power",
@@ -328,7 +328,7 @@
         "product_title": "LED Desk Lamp",
         "product_image": "https://i.ibb.co.com/tQ9z0DD/LED-Desk-Lamp-min.jpg",
         "category": "Home Appliances",
-        "price": 35,
+        "price": 65,
         "description": "An energy-efficient LED desk lamp with adjustable brightness settings.",
         "specification": [
             "Adjustable brightness",
@@ -396,7 +396,7 @@
         "product_title": "Ceramic Plant Pots Set",
         "product_image": "https://i.ibb.co.com/3RD9tZv/Ceramic-Plant-Pots-Set-min.jpg",
         "category": "Home Decor",
-        "price": 30,
+        "price": 80,
         "description": "A set of ceramic plant pots perfect for indoor plants.",
         "specification": [
             "3-piece set",
@@ -413,7 +413,7 @@
         "product_title": "Magnetic Phone Holder",
         "product_image": "https://i.ibb.co.com/L0jdyrm/Magnetic-Phone-Holder-min.jpg",
         "category": "Electronics",
-        "price": 20,
+        "price": 50,
         "description": "A convenient magnetic phone holder for secure mounting in cars.",
         "specification": [
             "Strong magnet",
@@ -430,7 +430,7 @@
         "product_title": "Digital Alarm Clock",
         "product_image": "https://i.ibb.co.com/dr3hGY9/Digital-Alarm-Clock-min.jpg",
         "category": "Electronics",
-        "price": 25,
+        "price": 85,
         "description": "A compact digital alarm clock with LED display and snooze function.",
         "specification": [
             "LED display",
@@ -447,7 +447,7 @@
         "product_title": "Stainless Steel Water Bottle",
         "product_image": "https://i.ibb.co.com/LzfdKhw/Stainless-Steel-Water-Bottle-min.jpg",
         "category": "Kitchen Appliances",
-        "price": 25,
+        "price": 52,
         "description": "An insulated stainless steel water bottle that keeps drinks hot or cold.",
         "specification": [
             "Double-wall insulation",
@@ -464,7 +464,7 @@
         "product_title": "Wireless Charging Pad",
         "product_image": "https://i.ibb.co.com/v3vyHxP/Wireless-Charging-Pad-min.jpg",
         "category": "Electronics",
-        "price": 30,
+        "price": 53,
         "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
         "specification": [
             "Fast charging",
@@ -498,7 +498,7 @@
         "product_title": "Foam Roller",
         "product_image": "https://i.ibb.co.com/YTTy8Wy/Foam-Roller-min.jpg",
         "category": "Fitness",
-        "price": 25,
+        "price": 52,
         "description": "High-density foam roller for muscle recovery and deep tissue massage.",
         "specification": [
             "High-density foam",
@@ -600,7 +600,7 @@
         "product_title": "Yoga Mat with Alignment Lines",
         "product_image": "https://i.ibb.co.com/vqmmvWj/Yoga-Mat-with-Alignment-Lines-min.jpg",
         "category": "Fitness",
-        "price": 40,
+        "price": 54,
         "description": "Non-slip yoga mat with alignment lines for precise positioning.",
         "specification": [
             "Alignment lines",
@@ -617,7 +617,7 @@
         "product_title": "Electric Milk Frother",
         "product_image": "https://i.ibb.co.com/SwxKgPZ/Electric-Milk-Frother-min.jpg",
         "category": "Kitchen Appliances",
-        "price": 30,
+        "price": 53,
         "description": "Electric milk frother for creamy lattes and cappuccinos.",
         "specification": [
             "Froths hot and cold milk",
@@ -634,7 +634,7 @@
         "product_title": "Essential Oil Diffuser",
         "product_image": "https://i.ibb.co.com/GMcbFsP/Essential-Oil-Diffuser-min.jpg",
         "category": "Home Essentials",
-        "price": 35,
+        "price": 53,
         "description": "A calming essential oil diffuser with LED mood lighting.",
         "specification": [
             "300ml capacity",

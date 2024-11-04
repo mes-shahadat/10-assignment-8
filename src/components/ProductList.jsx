@@ -6,7 +6,6 @@ function ProdutctList() {
     const allProducts = useLoaderData()
     let products;
 
-    console.log(param.category)
     if (param.category === undefined) {
         products = allProducts;
     }

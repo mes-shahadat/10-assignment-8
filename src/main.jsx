@@ -5,6 +5,7 @@ import './index.css'
 import App from './App';
 import Banner from './components/Banner';
 import ProdutctList from './components/ProductList';
+import ProductDetails from './components/ProductDetails';
 
 const router = createBrowserRouter([
   {
@@ -19,12 +20,12 @@ const router = createBrowserRouter([
           {
             path: "/",
             element: <ProdutctList />,
-            loader: () => fetch('./products.json'),
+            loader: () => fetch('/products.json'),
             children: [
               {
                 path: "/products/:category",
                 element: <ProdutctList />,
-                loader: () => fetch('./products.json'),
+                loader: () => fetch('/products.json'),
               },
             ],
           },
@@ -33,8 +34,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/product-details/:id",
-        element: <h1>product details page</h1>,
-        loader: () => fetch('./products.json'),
+        element: <ProductDetails/>,
+        loader: () => fetch('/products.json'),
       },
       {
         path: "/stats",
