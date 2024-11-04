@@ -1,23 +1,40 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
 import App from './App';
 import Banner from './components/Banner';
+import ProdutctList from './components/ProductList';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     errorElement: <h1>404 error</h1>,
     children: [
       {
         path: "/",
-        element: <Banner/>,
+        element: <Banner />,
+        children: [
+          {
+            path: "/",
+            element: <ProdutctList />,
+            loader: () => fetch('./products.json'),
+            children: [
+              {
+                path: "/products/:category",
+                element: <ProdutctList />,
+                loader: () => fetch('./products.json'),
+              },
+            ],
+          },
+          
+        ],
       },
       {
         path: "/product-details/:id",
         element: <h1>product details page</h1>,
+        loader: () => fetch('./products.json'),
       },
       {
         path: "/stats",

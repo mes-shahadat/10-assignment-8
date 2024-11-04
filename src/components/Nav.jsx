@@ -46,9 +46,9 @@ function Nav() {
 
     return (
         <>
-            <header className={`w-11/12 mx-auto ${pathname === '/' ? "border-t border-l border-r" : " "} px-2 pt-2 rounded-t-3xl mt-2`}>
+            <header className={`w-11/12 mx-auto ${pathname === '/' || pathname.includes("/products/") ? "border-t border-l border-r" : " "} px-2 pt-2 rounded-t-3xl mt-2`}>
 
-                <nav className={`flex max-sm:flex-col items-center sm:justify-around ${pathname === '/' ? "bg-[#943fdd] text-white" : " "} py-5 px-2 rounded-t-2xl`}>
+                <nav className={`flex max-sm:flex-col items-center sm:justify-around ${pathname === '/' || pathname.includes("/products/") ? "bg-[#943fdd] text-white" : " "} py-5 px-2 rounded-t-2xl`}>
                     <Link to='/' className="text-xl font-extrabold max-sm:pb-4">Gadget Heaven</Link>
 
                     <div className="flex gap-2 sm:gap-5">

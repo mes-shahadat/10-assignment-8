@@ -72,7 +72,7 @@
         "product_id": 1005,
         "product_title": "Ergonomic Office Chair",
         "product_image": "https://i.ibb.co.com/R4K56Y9/Ergonomic-Office-Chair-min.jpg",
-        "category": "Furniture",
+        "category": "misc",
         "price": 175,
         "description": "An ergonomic office chair with adjustable lumbar support and breathable mesh.",
         "specification": [
@@ -89,7 +89,7 @@
         "product_id": 1006,
         "product_title": "Smart Fitness Watch",
         "product_image": "https://i.ibb.co.com/wNGMJTy/Smart-Fitness-Watch-min.jpg",
-        "category": "Wearable Technology",
+        "category": "Electronics",
         "price": 130,
         "description": "A smartwatch with fitness tracking, heart rate monitoring, and GPS.",
         "specification": [
@@ -106,7 +106,7 @@
         "product_id": 1007,
         "product_title": "Cordless Drill Kit",
         "product_image": "https://i.ibb.co.com/KDqpWZt/Cordless-Drill-Kit-min.jpg",
-        "category": "Tools",
+        "category": "misc",
         "price": 89,
         "description": "A versatile cordless drill kit with a long-lasting battery and multiple drill bits.",
         "specification": [
@@ -123,7 +123,7 @@
         "product_id": 1008,
         "product_title": "Eco-Friendly Yoga Mat",
         "product_image": "https://i.ibb.co.com/Dg8KYQR/Eco-Friendly-Yoga-Mat-min.jpg",
-        "category": "Sports",
+        "category": "Fitness",
         "price": 35,
         "description": "An eco-friendly yoga mat with a non-slip surface and extra cushioning.",
         "specification": [
@@ -140,7 +140,7 @@
         "product_id": 1009,
         "product_title": "Gaming Mouse with RGB Lighting",
         "product_image": "https://i.ibb.co.com/B3BJBz7/Gaming-Mouse-with-RGB-Lighting-min.jpg",
-        "category": "Computers",
+        "category": "Electronics",
         "price": 49,
         "description": "A precision gaming mouse with customizable RGB lighting and programmable buttons.",
         "specification": [
@@ -259,7 +259,7 @@
         "product_id": 1016,
         "product_title": "Camping Tent for 4",
         "product_image": "https://i.ibb.co.com/2kypnpp/Camping-Tent-for-4-min.jpg",
-        "category": "Outdoor",
+        "category": "misc",
         "price": 120,
         "description": "A weather-resistant camping tent suitable for up to 4 people.",
         "specification": [
@@ -327,7 +327,7 @@
         "product_id": 1020,
         "product_title": "LED Desk Lamp",
         "product_image": "https://i.ibb.co.com/tQ9z0DD/LED-Desk-Lamp-min.jpg",
-        "category": "Lighting",
+        "category": "Home Appliances",
         "price": 35,
         "description": "An energy-efficient LED desk lamp with adjustable brightness settings.",
         "specification": [
@@ -344,7 +344,7 @@
         "product_id": 1021,
         "product_title": "Weighted Blanket",
         "product_image": "https://i.ibb.co.com/G04HG7V/Weighted-Blanket-min.jpg",
-        "category": "Bedding",
+        "category": "Home Appliances",
         "price": 80,
         "description": "A soft weighted blanket to reduce stress and improve sleep quality.",
         "specification": [
@@ -378,7 +378,7 @@
         "product_id": 1023,
         "product_title": "Electric Toothbrush",
         "product_image": "https://i.ibb.co.com/KW6CR7w/Electric-Toothbrush-min.jpg",
-        "category": "Personal Care",
+        "category": "Electronics",
         "price": 75,
         "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
         "specification": [
@@ -412,7 +412,7 @@
         "product_id": 1025,
         "product_title": "Magnetic Phone Holder",
         "product_image": "https://i.ibb.co.com/L0jdyrm/Magnetic-Phone-Holder-min.jpg",
-        "category": "Automotive Accessories",
+        "category": "Electronics",
         "price": 20,
         "description": "A convenient magnetic phone holder for secure mounting in cars.",
         "specification": [
@@ -446,7 +446,7 @@
         "product_id": 1027,
         "product_title": "Stainless Steel Water Bottle",
         "product_image": "https://i.ibb.co.com/LzfdKhw/Stainless-Steel-Water-Bottle-min.jpg",
-        "category": "Outdoor",
+        "category": "Kitchen Appliances",
         "price": 25,
         "description": "An insulated stainless steel water bottle that keeps drinks hot or cold.",
         "specification": [
@@ -462,7 +462,7 @@
     {
         "product_id": 1028,
         "product_title": "Wireless Charging Pad",
-        "product_image": "hhttps://i.ibb.co.com/v3vyHxP/Wireless-Charging-Pad-min.jpg",
+        "product_image": "https://i.ibb.co.com/v3vyHxP/Wireless-Charging-Pad-min.jpg",
         "category": "Electronics",
         "price": 30,
         "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
@@ -531,7 +531,7 @@
         "product_id": 1032,
         "product_title": "UV Sanitizer Box",
         "product_image": "https://i.ibb.co.com/mFzWX8g/UV-Sanitizer-Box-min.jpg",
-        "category": "Health",
+        "category": "Electronics",
         "price": 65,
         "description": "A UV sanitizer box to disinfect your personal items effectively.",
         "specification": [
@@ -548,7 +548,7 @@
         "product_id": 1033,
         "product_title": "Portable Air Compressor",
         "product_image": "https://i.ibb.co.com/yhyqhDB/Portable-Air-Compressor-min.jpg",
-        "category": "Automotive",
+        "category": "Electronics",
         "price": 50,
         "description": "Compact and portable air compressor for inflating tires and sports equipment.",
         "specification": [
