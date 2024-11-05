@@ -21,6 +21,7 @@ export default function App() {
       <Toaster />
       <Footer />
 
+      <div style={{height: "100vh"}}></div>
     </>
   )
 }

@@ -9,6 +9,7 @@ import ProductDetails from './components/ProductDetails';
 import Dashboard from './components/Dashboard';
 import Statistics from './components/Statistics';
 import Error from './components/Error';
+import AboutUs from "./components/AboutUs"
 
 const router = createBrowserRouter([
   {
@@ -55,7 +56,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about-us",
-        element: <h1>about us page</h1>,
+        element: <AboutUs/>,
       },
       {
         path: "/contact-us",
