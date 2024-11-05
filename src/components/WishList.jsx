@@ -44,6 +44,8 @@ function WishList({ wishProducts, wishArr, setWishArr }) {
         wishArr.ids = arr.filter( element => element !== undefined);
         wishArr.total_price -= price
 
+        
+        toast.success('successfully added to your cart');
         setWishArr({...wishArr});
     }
 
@@ -84,8 +86,7 @@ function WishList({ wishProducts, wishArr, setWishArr }) {
                                         cartArrCopy.ids.push(product.product_id);
                                         cartArrCopy.total_price += product.price;
                                         setCartArr({ ...cartArrCopy });
-                                        handleAddToCart(product.product_id, product.price)
-                                        toast.success('successfully added to your cart');
+                                        handleAddToCart(product.product_id, product.price);
                                     }}>Add To Card</button>
                                 </div>
 

@@ -7,6 +7,7 @@ import Banner from './components/Banner';
 import ProdutctList from './components/ProductList';
 import ProductDetails from './components/ProductDetails';
 import Dashboard from './components/Dashboard';
+import Statistics from './components/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/stats",
-        element: <h1>statics page</h1>,
+        element: <Statistics/>,
+        loader: () => fetch('/products.json'),
       },
       {
         path: "/dashboard",
