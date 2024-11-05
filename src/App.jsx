@@ -3,11 +3,12 @@ import { useState } from "react";
 import { cartContext, wishContext } from "./components/context";
 import { Toaster } from 'react-hot-toast';
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 export default function App() {
 
-  const [cartArr, setCartArr] = useState({ids: [], total_price : 0});
-  const [wishArr, setWishArr] = useState({ids: [], total_price : 0});
+  const [cartArr, setCartArr] = useState({ ids: [], total_price: 0 });
+  const [wishArr, setWishArr] = useState({ ids: [], total_price: 0 });
 
   return (
     <>
@@ -17,8 +18,8 @@ export default function App() {
           <Outlet />
         </wishContext.Provider>
       </cartContext.Provider>
-      <Toaster/>
-      <div style={{ height: '100vh' }}></div>
+      <Toaster />
+      <Footer />
     </>
   )
 }

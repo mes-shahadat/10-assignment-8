@@ -26,6 +26,7 @@ function WishList({ wishProducts, wishArr, setWishArr }) {
         wishArr.ids = arr.filter(element => element !== undefined);
         wishArr.total_price -= price
 
+        toast.error('successfully deleted from wishlist');
         setWishArr({ ...wishArr });
     }
 

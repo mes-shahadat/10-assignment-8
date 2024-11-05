@@ -116,7 +116,7 @@ function Nav() {
                                     <p className="text-black text-xl font-bold">{wishArr.ids.length} Items in Wishlist</p>
                                     <hr />
                                     <p className="font-semibold text-[#9140df]">Subtotal: ${wishArr.total_price}</p>
-                                    <button className="bg-[#9140df] text-white font-semibold px-3 py-2 rounded-full" onClick={() => navigate("/dashboard")}>dashboard</button>
+                                    <button className="bg-[#9140df] text-white font-semibold px-3 py-2 rounded-full" onClick={() => navigate("/dashboard", { state: { cart: false } })}>dashboard</button>
                                 </div>
                             }
 

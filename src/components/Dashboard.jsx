@@ -1,12 +1,18 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Cart from "./Cart";
 import WishList from "./Wishlist";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useLocation } from "react-router-dom";
 import { cartContext, wishContext } from "./context";
 
 function Dashboard() {
 
     const [cartActive, setCartActive] = useState(true);
+    const param = useLocation();
+    
+    useEffect(
+        ()=> param.state?.cart === undefined ? setCartActive(true) : setCartActive(param.state.cart), []
+    )
+    
     const [cartArr, setCartArr] = useContext(cartContext);
     const [wishArr, setWishArr] = useContext(wishContext);
     const products = useLoaderData();

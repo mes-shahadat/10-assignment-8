@@ -1,6 +1,7 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import tickIcon from "../assets/Group.png";
 import { useNavigate } from "react-router-dom";
+import toast from 'react-hot-toast';
 
 function Cart({ cartProducts, cartArr, setCartArr }) {
 
@@ -43,6 +44,7 @@ function Cart({ cartProducts, cartArr, setCartArr }) {
         cartArr.ids = arr.filter( element => element !== undefined);
         cartArr.total_price -= price
 
+        toast.error('successfully deleted from cart');
         setCartArr({...cartArr});
     }
 
@@ -84,7 +86,7 @@ return (
 
                 {
                     cartProducts.map(
-                        product => <div key={product.product_id} className="flex max-sm:flex-col gap-6 p-5 bg-white rounded-2xl mt-5">
+                        (product, index) => <div key={index} className="flex max-sm:flex-col gap-6 p-5 bg-white rounded-2xl mt-5">
                             <img className="md:h-32 rounded-2xl" src={product.product_image} alt="" />
 
                             <div className="space-y-3">
