@@ -3,7 +3,7 @@ function Footer () {
 
     return (
         <>
-            <footer className="bg-white py-20">
+            <footer className="bg-white py-10 md:py-20">
 
                 <section className="w-11/12 md:w-9/12 mx-auto md:text-center space-y-6">
                     <h2 className="text-3xl font-bold">Gadget Heaven</h2>

@@ -8,12 +8,12 @@ import ProdutctList from './components/ProductList';
 import ProductDetails from './components/ProductDetails';
 import Dashboard from './components/Dashboard';
 import Statistics from './components/Statistics';
+import Error from './components/Error';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <h1>404 error</h1>,
     children: [
       {
         path: "/",
@@ -60,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: "/contact-us",
         element: <h1>contact page</h1>,
+      },
+      {
+        path: "*", // error component
+        element: <Error/>,
       },
     ],
   }
