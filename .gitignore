@@ -13,6 +13,7 @@ dist-ssr
 ui
 *.local
 *.fig
+*.pdf
 
 # Editor directories and files
 .vscode/*

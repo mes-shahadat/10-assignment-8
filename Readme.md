@@ -3,7 +3,7 @@
 Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
 
 **Live Website:** [Gadget Heaven](https://messedup-assignment-8.netlify.app/)  
-**Requirement Document:** [Requirements](#./Batch-10_Assignment-08.pdf)
+**Requirement Document:** [Requirements](Batch-10_Assignment-08.pdf)
 
 ## React Fundamentals Used
 - **Components**: Modular and reusable UI components.
