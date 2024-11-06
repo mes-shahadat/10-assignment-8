@@ -10,6 +10,7 @@ import Dashboard from './components/Dashboard';
 import Statistics from './components/Statistics';
 import Error from './components/Error';
 import AboutUs from "./components/AboutUs"
+import ContactUs from './components/ContactUs';
 
 const router = createBrowserRouter([
   {
@@ -60,7 +61,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact-us",
-        element: <h1>contact page</h1>,
+        element: <ContactUs/>,
       },
       {
         path: "*", // error component
