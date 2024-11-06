@@ -14,6 +14,23 @@ function ProductDetails() {
     const [cartArr, setCartArr] = useContext(cartContext);
     const [wishArr, setWishArr] = useContext(wishContext);
 
+    const handleAdd = (type, arr, id, price) => {
+        let arrCopy = arr;
+
+        if (arr.ids.find(item => item === id)) {
+            return toast.error('item already exists in the cart');
+        }
+        else if (type === 'cart' && arr.total_price + price >= 1000) {
+            return toast.error('cart cannot hold over 1000$ items');
+        }
+        
+        arrCopy.ids.push(id);
+        arrCopy.total_price += price;
+        
+        type === "cart" ? setCartArr({ ...arrCopy }) : setWishArr({ ...arrCopy });
+        toast.success('added to your cart');
+    }
+
     return (
         <section className="bg-[#943fdd] text-white pb-56 mb-80">
 
@@ -54,24 +71,12 @@ function ProductDetails() {
                         </div>
 
                         <div className="flex items-center gap-2">
-                            <button className="bg-[#943fdd] rounded-full inline-flex text-white font-semibold items-center px-3 py-1" onClick={() => {
-                                let cartArrCopy = cartArr;
-                                cartArrCopy.ids.push(product.product_id);
-                                cartArrCopy.total_price += product.price;
-                                setCartArr({ ...cartArrCopy });
-                                toast.success('added to your cart');
-                            }}>
+                            <button className="bg-[#943fdd] rounded-full inline-flex text-white font-semibold items-center px-3 py-1" onClick={() => handleAdd("cart", cartArr, product.product_id, product.price)}>
                                 Add To Card
                                 <svg className="w-9 p-2 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4.00436 6.41686L0.761719 3.17422L2.17593 1.76001L5.41857 5.00265H20.6603C21.2126 5.00265 21.6603 5.45037 21.6603 6.00265C21.6603 6.09997 21.6461 6.19678 21.6182 6.29L19.2182 14.29C19.0913 14.713 18.7019 15.0027 18.2603 15.0027H6.00436V17.0027H17.0044V19.0027H5.00436C4.45207 19.0027 4.00436 18.5549 4.00436 18.0027V6.41686ZM6.00436 7.00265V13.0027H17.5163L19.3163 7.00265H6.00436ZM5.50436 23.0027C4.67593 23.0027 4.00436 22.3311 4.00436 21.5027C4.00436 20.6742 4.67593 20.0027 5.50436 20.0027C6.33279 20.0027 7.00436 20.6742 7.00436 21.5027C7.00436 22.3311 6.33279 23.0027 5.50436 23.0027ZM17.5044 23.0027C16.6759 23.0027 16.0044 22.3311 16.0044 21.5027C16.0044 20.6742 16.6759 20.0027 17.5044 20.0027C18.3328 20.0027 19.0044 20.6742 19.0044 21.5027C19.0044 22.3311 18.3328 23.0027 17.5044 23.0027Z"></path></svg>
                             </button>
 
-                            <button disabled={wishArr.ids.includes(product.product_id) ? 'disabled' : ''} className="bg-white rounded-full border border-gray-400 hover:bg-[#943fdd]" onClick={() => {
-                                let wishArrCopy = wishArr;
-                                wishArrCopy.ids.push(product.product_id);
-                                wishArrCopy.total_price += product.price;
-                                setWishArr({ ...wishArrCopy });
-                                toast.success('added to your wishlist');
-                            }}>
+                            <button disabled={wishArr.ids.includes(product.product_id) ? 'disabled' : ''} className="bg-white rounded-full border border-gray-400 hover:bg-[#943fdd]" onClick={() => handleAdd("wish", wishArr, product.product_id, product.price)}>
                                 <svg className="w-10 p-2 text-black hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"></path></svg>
                             </button>
                         </div>

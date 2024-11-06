@@ -26,13 +26,25 @@ function WishList({ wishProducts, wishArr, setWishArr }) {
         wishArr.ids = arr.filter(element => element !== undefined);
         wishArr.total_price -= price
 
-        toast.error('successfully deleted from wishlist');
+        toast.success('successfully deleted from wishlist');
         setWishArr({ ...wishArr });
     }
 
     const [cartArr, setCartArr] = useContext(cartContext);
 
     const handleAddToCart = (id, price) => {
+
+        if (cartArr.ids.find(item => item === id)) {
+            return toast.error('item already exists in the cart');
+        }
+        else if (price + cartArr.total_price >= 1000) {
+            return toast.error('cart cannot hold over 1000$ items');
+        }
+
+        let cartArrCopy = cartArr;
+        cartArrCopy.ids.push(id);
+        cartArrCopy.total_price += price;
+        setCartArr({ ...cartArrCopy });
 
         let arr = wishProducts.map(
             prod => {
@@ -42,12 +54,12 @@ function WishList({ wishProducts, wishArr, setWishArr }) {
             }
         )
 
-        wishArr.ids = arr.filter( element => element !== undefined);
+        wishArr.ids = arr.filter(element => element !== undefined);
         wishArr.total_price -= price
 
-        
+
         toast.success('successfully added to your cart');
-        setWishArr({...wishArr});
+        setWishArr({ ...wishArr });
     }
 
     return (
@@ -82,13 +94,7 @@ function WishList({ wishProducts, wishArr, setWishArr }) {
                                     <h3 className="text-xl font-bold">{product.product_title}</h3>
                                     <p className="text-gray-800">{product.description}</p>
                                     <p className="text-lg font-semibold text-gray-800">Price: ${product.price}</p>
-                                    <button className="bg-[#943fdd] rounded-full inline-flex text-white font-semibold items-center px-3 py-2" onClick={() => {
-                                        let cartArrCopy = cartArr;
-                                        cartArrCopy.ids.push(product.product_id);
-                                        cartArrCopy.total_price += product.price;
-                                        setCartArr({ ...cartArrCopy });
-                                        handleAddToCart(product.product_id, product.price);
-                                    }}>Add To Card</button>
+                                    <button className="bg-[#943fdd] rounded-full inline-flex text-white font-semibold items-center px-3 py-2" onClick={() => handleAddToCart(product.product_id, product.price)}>Add To Card</button>
                                 </div>
 
                                 <button className="w-10 text-red-600 border border-rose-600 p-2 h-min rounded-full max-sm:mx-auto md:ml-auto" onClick={() => handleDelete(product.product_id, product.price)}>

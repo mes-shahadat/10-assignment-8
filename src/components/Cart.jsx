@@ -46,7 +46,7 @@ function Cart({ cartProducts, cartArr, setCartArr }) {
         cartArr.ids = arr.filter( element => element !== undefined);
         cartArr.total_price -= price
 
-        toast.error('successfully deleted from cart');
+        toast.success('successfully deleted from cart');
         setCartArr({...cartArr});
     }
 
