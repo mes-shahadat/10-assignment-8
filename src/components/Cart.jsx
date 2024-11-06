@@ -7,16 +7,18 @@ function Cart({ cartProducts, cartArr, setCartArr }) {
 
     const navigate = useNavigate();
     const dialoagRef = useRef();
+    let purchasedPrice = useRef(0);
 
     const handlePurchase = () => {
         
         dialoagRef.current.showModal();
+        purchasedPrice.current = cartArr.total_price;
         cartArr.ids = [];
+        cartArr.total_price = 0;
         setCartArr({...cartArr})
     }
     const handleClose = () => {
         
-        cartArr.total_price = 0;
         setCartArr({...cartArr})
         dialoagRef.current.close()
         navigate('/');
@@ -55,7 +57,7 @@ return (
             <p className="text-2xl font-bold">Payment Successfull</p>
             <hr />
             <p className="text-gray-500 font-semibold">Thanks for purchasing.</p>
-            <p className="text-gray-500 font-semibold">Total: ${cartArr.total_price}</p>
+            <p className="text-gray-500 font-semibold">Total: ${purchasedPrice.current}</p>
             <button className="font-semibold px-2 py-1 border bg-[#edecec] w-full rounded-full" onClick={handleClose}>Close</button>
         </dialog>
 

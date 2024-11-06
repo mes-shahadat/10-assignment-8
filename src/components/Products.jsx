@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 function Products() {
 
     return (
-        <section className="w-11/12 mx-auto pt-8 mb-24">
+        <section className="w-11/12 mx-auto pt-8 mb-24" id="shop">
 
             <h2 className="md:text-3xl font-bold w-max mx-auto mb-8">Explore Cutting-Edge Gadgets</h2>
 

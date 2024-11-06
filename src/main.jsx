@@ -52,10 +52,6 @@ const router = createBrowserRouter([
         loader: () => fetch('/products.json'),
       },
       {
-        path: "/technical-support",
-        element: <h1>support page</h1>,
-      },
-      {
         path: "/about-us",
         element: <AboutUs/>,
       },
